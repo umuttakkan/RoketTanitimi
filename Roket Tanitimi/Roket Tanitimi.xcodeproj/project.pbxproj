@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042A76132BA7516900D33FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A76122BA7516900D33FCA /* AppDelegate.swift */; };
+		042A76152BA7516900D33FCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A76142BA7516900D33FCA /* SceneDelegate.swift */; };
+		042A76172BA7516900D33FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A76162BA7516900D33FCA /* ViewController.swift */; };
+		042A761A2BA7516900D33FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042A76182BA7516900D33FCA /* Main.storyboard */; };
+		042A761C2BA7516B00D33FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042A761B2BA7516B00D33FCA /* Assets.xcassets */; };
+		042A761F2BA7516B00D33FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042A761D2BA7516B00D33FCA /* LaunchScreen.storyboard */; };
+		042A762A2BA7516B00D33FCA /* Roket_TanitimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A76292BA7516B00D33FCA /* Roket_TanitimiTests.swift */; };
+		042A76342BA7516B00D33FCA /* Roket_TanitimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A76332BA7516B00D33FCA /* Roket_TanitimiUITests.swift */; };
+		042A76362BA7516B00D33FCA /* Roket_TanitimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A76352BA7516B00D33FCA /* Roket_TanitimiUITestsLaunchTests.swift */; };
+		048F3FFF2BADB92A00E50C26 /* Home_Desktop_21203eba91.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048F3FFE2BADB92900E50C26 /* Home_Desktop_21203eba91.jpeg */; };
+		048F40012BADBA8800E50C26 /* GBqiWrvWMAAovao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048F40002BADBA8800E50C26 /* GBqiWrvWMAAovao.jpeg */; };
+		048F40052BADBFA800E50C26 /* Ekran Resmi 2024-03-22 16.28.06.png in Resources */ = {isa = PBXBuildFile; fileRef = 048F40042BADBFA800E50C26 /* Ekran Resmi 2024-03-22 16.28.06.png */; };
+		048F40072BADBFFC00E50C26 /* 60d58ad15439d.png in Resources */ = {isa = PBXBuildFile; fileRef = 048F40062BADBFFC00E50C26 /* 60d58ad15439d.png */; };
+		048F40092BADC25500E50C26 /* F8VcU25WEAAHXkg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048F40082BADC25500E50C26 /* F8VcU25WEAAHXkg.jpeg */; };
+		048F400B2BADC34200E50C26 /* amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 048F400A2BADC34200E50C26 /* amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg */; };
+		048F400D2BADC3F400E50C26 /* GB7_AkIWkAAMFBS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048F400C2BADC3F400E50C26 /* GB7_AkIWkAAMFBS.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042A76262BA7516B00D33FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042A76072BA7516900D33FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042A760E2BA7516900D33FCA;
+			remoteInfo = "Roket Tanitimi";
+		};
+		042A76302BA7516B00D33FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042A76072BA7516900D33FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042A760E2BA7516900D33FCA;
+			remoteInfo = "Roket Tanitimi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042A760F2BA7516900D33FCA /* Roket Tanitimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roket Tanitimi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042A76122BA7516900D33FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042A76142BA7516900D33FCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		042A76162BA7516900D33FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042A76192BA7516900D33FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042A761B2BA7516B00D33FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042A761E2BA7516B00D33FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042A76202BA7516B00D33FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042A76252BA7516B00D33FCA /* Roket TanitimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roket TanitimiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042A76292BA7516B00D33FCA /* Roket_TanitimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roket_TanitimiTests.swift; sourceTree = "<group>"; };
+		042A762F2BA7516B00D33FCA /* Roket TanitimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roket TanitimiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042A76332BA7516B00D33FCA /* Roket_TanitimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roket_TanitimiUITests.swift; sourceTree = "<group>"; };
+		042A76352BA7516B00D33FCA /* Roket_TanitimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roket_TanitimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		048F3FFE2BADB92900E50C26 /* Home_Desktop_21203eba91.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Home_Desktop_21203eba91.jpeg; path = "../../../Umut AKKAN-22MY03013 3/img/Home_Desktop_21203eba91.jpeg"; sourceTree = "<group>"; };
+		048F40002BADBA8800E50C26 /* GBqiWrvWMAAovao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GBqiWrvWMAAovao.jpeg; path = "../../../Umut AKKAN-22MY03013 3/img/GBqiWrvWMAAovao.jpeg"; sourceTree = "<group>"; };
+		048F40042BADBFA800E50C26 /* Ekran Resmi 2024-03-22 16.28.06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ekran Resmi 2024-03-22 16.28.06.png"; path = "../../../Ekran Resmi 2024-03-22 16.28.06.png"; sourceTree = "<group>"; };
+		048F40062BADBFFC00E50C26 /* 60d58ad15439d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 60d58ad15439d.png; path = ../../../60d58ad15439d.png; sourceTree = "<group>"; };
+		048F40082BADC25500E50C26 /* F8VcU25WEAAHXkg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = F8VcU25WEAAHXkg.jpeg; path = "../../../Umut AKKAN-22MY03013 3/img/F8VcU25WEAAHXkg.jpeg"; sourceTree = "<group>"; };
+		048F400A2BADC34200E50C26 /* amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg"; path = "../../../Umut AKKAN-22MY03013 3/img/amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg"; sourceTree = "<group>"; };
+		048F400C2BADC3F400E50C26 /* GB7_AkIWkAAMFBS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GB7_AkIWkAAMFBS.jpeg; path = "../../../Umut AKKAN-22MY03013 3/img/GB7_AkIWkAAMFBS.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042A760C2BA7516900D33FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A76222BA7516B00D33FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A762C2BA7516B00D33FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042A76062BA7516900D33FCA = {
+			isa = PBXGroup;
+			children = (
+				042A76112BA7516900D33FCA /* Roket Tanitimi */,
+				042A76282BA7516B00D33FCA /* Roket TanitimiTests */,
+				042A76322BA7516B00D33FCA /* Roket TanitimiUITests */,
+				042A76102BA7516900D33FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042A76102BA7516900D33FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042A760F2BA7516900D33FCA /* Roket Tanitimi.app */,
+				042A76252BA7516B00D33FCA /* Roket TanitimiTests.xctest */,
+				042A762F2BA7516B00D33FCA /* Roket TanitimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042A76112BA7516900D33FCA /* Roket Tanitimi */ = {
+			isa = PBXGroup;
+			children = (
+				042A76122BA7516900D33FCA /* AppDelegate.swift */,
+				042A76142BA7516900D33FCA /* SceneDelegate.swift */,
+				042A76162BA7516900D33FCA /* ViewController.swift */,
+				042A76182BA7516900D33FCA /* Main.storyboard */,
+				048F3FFE2BADB92900E50C26 /* Home_Desktop_21203eba91.jpeg */,
+				048F40002BADBA8800E50C26 /* GBqiWrvWMAAovao.jpeg */,
+				048F40042BADBFA800E50C26 /* Ekran Resmi 2024-03-22 16.28.06.png */,
+				048F40082BADC25500E50C26 /* F8VcU25WEAAHXkg.jpeg */,
+				048F400A2BADC34200E50C26 /* amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg */,
+				048F40062BADBFFC00E50C26 /* 60d58ad15439d.png */,
+				048F400C2BADC3F400E50C26 /* GB7_AkIWkAAMFBS.jpeg */,
+				042A761B2BA7516B00D33FCA /* Assets.xcassets */,
+				042A761D2BA7516B00D33FCA /* LaunchScreen.storyboard */,
+				042A76202BA7516B00D33FCA /* Info.plist */,
+			);
+			path = "Roket Tanitimi";
+			sourceTree = "<group>";
+		};
+		042A76282BA7516B00D33FCA /* Roket TanitimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				042A76292BA7516B00D33FCA /* Roket_TanitimiTests.swift */,
+			);
+			path = "Roket TanitimiTests";
+			sourceTree = "<group>";
+		};
+		042A76322BA7516B00D33FCA /* Roket TanitimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042A76332BA7516B00D33FCA /* Roket_TanitimiUITests.swift */,
+				042A76352BA7516B00D33FCA /* Roket_TanitimiUITestsLaunchTests.swift */,
+			);
+			path = "Roket TanitimiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042A760E2BA7516900D33FCA /* Roket Tanitimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042A76392BA7516B00D33FCA /* Build configuration list for PBXNativeTarget "Roket Tanitimi" */;
+			buildPhases = (
+				042A760B2BA7516900D33FCA /* Sources */,
+				042A760C2BA7516900D33FCA /* Frameworks */,
+				042A760D2BA7516900D33FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roket Tanitimi";
+			productName = "Roket Tanitimi";
+			productReference = 042A760F2BA7516900D33FCA /* Roket Tanitimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042A76242BA7516B00D33FCA /* Roket TanitimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042A763C2BA7516B00D33FCA /* Build configuration list for PBXNativeTarget "Roket TanitimiTests" */;
+			buildPhases = (
+				042A76212BA7516B00D33FCA /* Sources */,
+				042A76222BA7516B00D33FCA /* Frameworks */,
+				042A76232BA7516B00D33FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042A76272BA7516B00D33FCA /* PBXTargetDependency */,
+			);
+			name = "Roket TanitimiTests";
+			productName = "Roket TanitimiTests";
+			productReference = 042A76252BA7516B00D33FCA /* Roket TanitimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042A762E2BA7516B00D33FCA /* Roket TanitimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042A763F2BA7516B00D33FCA /* Build configuration list for PBXNativeTarget "Roket TanitimiUITests" */;
+			buildPhases = (
+				042A762B2BA7516B00D33FCA /* Sources */,
+				042A762C2BA7516B00D33FCA /* Frameworks */,
+				042A762D2BA7516B00D33FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042A76312BA7516B00D33FCA /* PBXTargetDependency */,
+			);
+			name = "Roket TanitimiUITests";
+			productName = "Roket TanitimiUITests";
+			productReference = 042A762F2BA7516B00D33FCA /* Roket TanitimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042A76072BA7516900D33FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					042A760E2BA7516900D33FCA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					042A76242BA7516B00D33FCA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 042A760E2BA7516900D33FCA;
+					};
+					042A762E2BA7516B00D33FCA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 042A760E2BA7516900D33FCA;
+					};
+				};
+			};
+			buildConfigurationList = 042A760A2BA7516900D33FCA /* Build configuration list for PBXProject "Roket Tanitimi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042A76062BA7516900D33FCA;
+			productRefGroup = 042A76102BA7516900D33FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042A760E2BA7516900D33FCA /* Roket Tanitimi */,
+				042A76242BA7516B00D33FCA /* Roket TanitimiTests */,
+				042A762E2BA7516B00D33FCA /* Roket TanitimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042A760D2BA7516900D33FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048F40012BADBA8800E50C26 /* GBqiWrvWMAAovao.jpeg in Resources */,
+				048F40072BADBFFC00E50C26 /* 60d58ad15439d.png in Resources */,
+				042A761F2BA7516B00D33FCA /* LaunchScreen.storyboard in Resources */,
+				048F40092BADC25500E50C26 /* F8VcU25WEAAHXkg.jpeg in Resources */,
+				048F400B2BADC34200E50C26 /* amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg in Resources */,
+				042A761C2BA7516B00D33FCA /* Assets.xcassets in Resources */,
+				048F400D2BADC3F400E50C26 /* GB7_AkIWkAAMFBS.jpeg in Resources */,
+				048F40052BADBFA800E50C26 /* Ekran Resmi 2024-03-22 16.28.06.png in Resources */,
+				042A761A2BA7516900D33FCA /* Main.storyboard in Resources */,
+				048F3FFF2BADB92A00E50C26 /* Home_Desktop_21203eba91.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A76232BA7516B00D33FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A762D2BA7516B00D33FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042A760B2BA7516900D33FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A76172BA7516900D33FCA /* ViewController.swift in Sources */,
+				042A76132BA7516900D33FCA /* AppDelegate.swift in Sources */,
+				042A76152BA7516900D33FCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A76212BA7516B00D33FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A762A2BA7516B00D33FCA /* Roket_TanitimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A762B2BA7516B00D33FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A76342BA7516B00D33FCA /* Roket_TanitimiUITests.swift in Sources */,
+				042A76362BA7516B00D33FCA /* Roket_TanitimiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042A76272BA7516B00D33FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042A760E2BA7516900D33FCA /* Roket Tanitimi */;
+			targetProxy = 042A76262BA7516B00D33FCA /* PBXContainerItemProxy */;
+		};
+		042A76312BA7516B00D33FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042A760E2BA7516900D33FCA /* Roket Tanitimi */;
+			targetProxy = 042A76302BA7516B00D33FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042A76182BA7516900D33FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042A76192BA7516900D33FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042A761D2BA7516B00D33FCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042A761E2BA7516B00D33FCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042A76372BA7516B00D33FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042A76382BA7516B00D33FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042A763A2BA7516B00D33FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR6F83435H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Roket Tanitimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UmutAkkan.Roket-Tanitimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042A763B2BA7516B00D33FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR6F83435H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Roket Tanitimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UmutAkkan.Roket-Tanitimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042A763D2BA7516B00D33FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR6F83435H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UmutAkkan.Roket-TanitimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roket Tanitimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roket Tanitimi";
+			};
+			name = Debug;
+		};
+		042A763E2BA7516B00D33FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR6F83435H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UmutAkkan.Roket-TanitimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roket Tanitimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roket Tanitimi";
+			};
+			name = Release;
+		};
+		042A76402BA7516B00D33FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR6F83435H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UmutAkkan.Roket-TanitimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roket Tanitimi";
+			};
+			name = Debug;
+		};
+		042A76412BA7516B00D33FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR6F83435H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UmutAkkan.Roket-TanitimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roket Tanitimi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042A760A2BA7516900D33FCA /* Build configuration list for PBXProject "Roket Tanitimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A76372BA7516B00D33FCA /* Debug */,
+				042A76382BA7516B00D33FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042A76392BA7516B00D33FCA /* Build configuration list for PBXNativeTarget "Roket Tanitimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A763A2BA7516B00D33FCA /* Debug */,
+				042A763B2BA7516B00D33FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042A763C2BA7516B00D33FCA /* Build configuration list for PBXNativeTarget "Roket TanitimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A763D2BA7516B00D33FCA /* Debug */,
+				042A763E2BA7516B00D33FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042A763F2BA7516B00D33FCA /* Build configuration list for PBXNativeTarget "Roket TanitimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A76402BA7516B00D33FCA /* Debug */,
+				042A76412BA7516B00D33FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042A76072BA7516900D33FCA /* Project object */;
+}

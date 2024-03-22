@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Roket_Tanitimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHZ-zt-fB3">
+                                <rect key="frame" x="88" y="409" width="217" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Roket Hakkında Bilgi Edin"/>
+                                <connections>
+                                    <segue destination="WIe-Iu-6S2" kind="show" id="p3e-RI-0fY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Home_Desktop_21203eba91.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fC6-0Q-Irz">
+                                <rect key="frame" x="16" y="101" width="361" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52m-ae-MaR">
+                                <rect key="frame" x="99" y="518" width="194" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Bir Roket Nasıl Kalkar?"/>
+                                <connections>
+                                    <segue destination="MVS-kK-dDM" kind="show" id="9WB-bo-gzt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4i-2g-ayJ">
+                                <rect key="frame" x="31" y="619" width="346" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="İniş Yapan ve Tekrar Kullanılabilen Roketler"/>
+                                <connections>
+                                    <segue destination="h4d-qf-v17" kind="show" id="mIb-7R-2Oh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6eP-H3-t8z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-973.28244274809151" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uzl-CL-1uJ">
+            <objects>
+                <viewController id="WIe-Iu-6S2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iet-Wo-6yc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEq-JC-2IV">
+                                <rect key="frame" x="16" y="66" width="91" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Geri Dön"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XVL-dK-ITl"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GBqiWrvWMAAovao.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6vh-gF-BM2">
+                                <rect key="frame" x="36" y="135" width="321" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4lD-jW-HR3">
+                                <rect key="frame" x="26" y="412" width="351" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <string key="text">Roket bir uzay aracı, hava aracı, araç, atkı veya bombadır. Roket, roket motorundan itme gücü elde eder.Roket motoru egzozu tamamen roket içinde taşınan roket itici yakıtından oluşur. Roket motorları etki ve tepki ile çalışır ve sadece egzozlarını yüksek hızda ters yönde dışarı atarak roketleri ileri doğru iter ve bu nedenle uzay boşluğunda çalışabilir. Etimolojik kökeni İtalyancada "bobin" anlamına gelen rocchetto olup,silindirik şekil benzerliğinden ötürü modern anlamında sahiplenilen kelimenin kullanımı 20. yüzyıl başlarında savaş gemilerinin öz itmeli ateşleme mermilerine dayanmaktadır.Türk Dil Kurumuna göre Türkçeye Fransızca roquette kelimesinden geçmiştir.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="slB-PD-L7i"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w8d-kh-xdD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bge-pK-yng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="362.59541984732823" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QTX-ah-zgR">
+            <objects>
+                <viewController id="MVS-kK-dDM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oKG-Ts-1xc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfv-Cb-63T">
+                                <rect key="frame" x="25" y="69" width="91" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Geri Dön"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="3cT-fy-aDm"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uGg-QY-XYN">
+                                <rect key="frame" x="25" y="355" width="342" height="405"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <string key="text">300 yıldan daha uzun bir süre önce, Isaac Newton adlı bir bilim insanı, nesnelerin nasıl hareket ettiğini
+açıklayan üç temel yasa ortaya koydu. Bu yasalardan biri, uygulanan her kuvvet için bu kuvvete eşit ve zıt
+bir tepki olduğunu söyler. Roketlerin nasıl çalıştığının arkasındaki en önemli fikir budur.Bir fırlatmanın
+resimlerini veya videolarını görürseniz, roketin altından dumanlar çıkaran egzozu görürsünüz.Egzozda çıkanlar
+roketin itici gazlarının yanmasından kaynaklanan alevler, sıcak gazlar ve dumandır.Egzozdan çıkan bu sıcak
+gazlar ve dumanlar, roketin motorundan yere doğru bir kuvvet uygular. Etki kuvveti budur. Buna karşılık olarak
+roket yerden kalkarak ters yönde hareket etmeye başlar. Tepki gücü budur.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="60d58ad15439d.png" translatesAutoresizingMaskIntoConstraints="NO" id="59a-9P-7WM">
+                                <rect key="frame" x="52" y="145" width="249" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J2E-i0-3wd"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dEc-b3-6b5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V0j-WX-2fl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-454.19847328244271" y="705.63380281690149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DI7-tX-txo">
+            <objects>
+                <viewController id="h4d-qf-v17" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TbG-AI-aKk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1B-7f-0Qd">
+                                <rect key="frame" x="20" y="95" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Geri Dön"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="pnj-05-Mb9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQf-1c-lHL">
+                                <rect key="frame" x="290" y="95" width="52" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="İleri"/>
+                                <connections>
+                                    <segue destination="ugI-ph-NXt" kind="show" id="obM-rl-WFd"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="42J-je-pcN">
+                                <rect key="frame" x="33" y="138" width="344" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <string key="text">Bu roketler, genellikle uzaya fırlatıldıktan sonra geri dönerek kontrollü bir şekilde iniş yapabilirler ve daha sonra tekrar kullanılabilirler. İşte bu konuda bilmeniz gereken bazı önemli noktalar:                               </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QvI-OZ-ShO">
+                                <rect key="frame" x="33" y="506" width="326" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <string key="text">SpaceX Falcon 9: SpaceX'in Falcon 9 roketleri, yeniden kullanılabilir roket teknolojisinde öncü bir konumdadır. Birincil aşama olarak adlandırılan en büyük bölümü fırlatmadan sonra kontrollü bir şekilde geri dönerek deniz platformları veya karada belirlenmiş iniş noktalarına iniş yapabilmektedir. Bu roketler birkaç kez kullanılmak üzere tasarlanmıştır.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="F8VcU25WEAAHXkg.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="GcT-ka-Vbn">
+                                <rect key="frame" x="5" y="274" width="382" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2td-81-Bwq"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2zA-dj-KOK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="saJ-gO-jXV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2083.2061068702287" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nFn-Ok-czu">
+            <objects>
+                <viewController id="ugI-ph-NXt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oeU-mn-oAq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBk-r4-9vn">
+                                <rect key="frame" x="290" y="95" width="52" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="İleri"/>
+                                <connections>
+                                    <segue destination="eBF-gL-TDz" kind="show" id="qYl-r0-Tzq"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="eGI-Qa-Ni6">
+                                <rect key="frame" x="48" y="464" width="296" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <string key="text">Blue Origin New Shepard:
+Blue Origin'in New Shepard roketi, altorbital uçuşlar için tasarlanmıştır. Bu roket, kapsülü yörünge dışına çıkardıktan sonra kendi
+kendine geri dönerek dikey bir iniş yapabilmektedir. New Shepard, ticari amaçlı altorbital turizm ve altorbital uçuşlar için potan-
+siyel bir çözüm olarak görülmektedir.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4P-8B-Rpe">
+                                <rect key="frame" x="16" y="95" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Geri Dön"/>
+                                <connections>
+                                    <segue destination="h4d-qf-v17" kind="show" id="HFL-T9-fMa"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hrV-lp-XOA">
+                                <rect key="frame" x="46" y="217" width="300" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BPH-3C-Lc6"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kga-Rp-Vdi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcE-lv-yl1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2722.9007633587785" y="705.63380281690149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1hE-mh-5IY">
+            <objects>
+                <viewController id="eBF-gL-TDz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ixp-AE-Kw4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-cE-fW6">
+                                <rect key="frame" x="20" y="95" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Geri Dön"/>
+                                <connections>
+                                    <segue destination="ugI-ph-NXt" kind="show" id="XC1-OW-dTE"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GB7_AkIWkAAMFBS.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="1qM-HZ-1aB">
+                                <rect key="frame" x="39" y="185" width="285" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zUD-Jj-gWp">
+                                <rect key="frame" x="39" y="471" width="285" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <string key="text">SpaceX Starship:
+SpaceX'in geliştirdiği Starship roketi uzun mesafe insanlı seyahatler için tasarlanmıştır ve amacı Mars'a insanlı görevler yapmaktır.
+Starship'in de yeniden kullanılabilir olması ve kontrollü iniş yapabilme özelliği planlanmaktadır.Bu roket, uzay endüstrisinde insanlı
+uzay seyahatlerinde büyük bir potansiyele sahiptir.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JNa-n9-7t7"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Rv-Ph-leG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="635-Bs-xPA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1721.3740458015266" y="705.63380281690149"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="obM-rl-WFd"/>
+        <segue reference="HFL-T9-fMa"/>
+        <segue reference="pnj-05-Mb9"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="60d58ad15439d.png" width="250" height="346"/>
+        <image name="F8VcU25WEAAHXkg.jpeg" width="3000" height="2000"/>
+        <image name="GB7_AkIWkAAMFBS.jpeg" width="1366" height="2048"/>
+        <image name="GBqiWrvWMAAovao.jpeg" width="1534" height="2048"/>
+        <image name="Home_Desktop_21203eba91.jpeg" width="3000" height="2000"/>
+        <image name="amazon-ceosunun-uzay-sirketi-blue-origin-den-tarihi-bir-basari-daha-video.jpg" width="660" height="371"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
